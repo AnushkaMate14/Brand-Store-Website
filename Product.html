@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - Brandstore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="Product.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="customize.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html"><img src="images/logo1-free-img-140x47.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="Everything.html">EVERYTHING</a></li>
+            <li class="nav-item"><a class="nav-link" href="Women.html">WOMEN</a></li>
+            <li class="nav-item"><a class="nav-link" href="Man.html">MEN</a></li>
+            <li class="nav-item"><a class="nav-link" href="Accessories.html">ACCESSORIES</a></li>
+          </ul>
+          <span class="navbar-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="About.html">ABOUT</a></li>
+              <li class="nav-item"><a class="nav-link" href="Contact.html">CONTACT US</a></li>
+              <li class="nav-item"><a class="nav-link" href="Cart.html" id="top-price">$150.00</a></li>
+              <li class="nav-item nav-icon-item">
+                <a class="nav-link nav-icon-link" href="Cart.html" aria-label="Cart"><i class="bi bi-bag-fill"></i><span class="cart-count">1</span></a>
+              </li>
+              <li class="nav-item nav-icon-item"><a class="nav-link nav-icon-link" href="#" aria-label="Profile"><i class="bi bi-person-fill"></i></a></li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-shell">
+      <div class="container product-wrap">
+        <div class="product-top">
+          <div class="product-image-box">
+            <img id="product-image" src="images/product-accessory2-300x300.jpg" alt="Product image">
+            <button class="zoom-btn" type="button" aria-label="Zoom image"><i class="bi bi-search"></i></button>
+          </div>
+
+          <div class="product-info">
+            <p class="crumb" id="product-crumb">Home / Women / Anchor Bracelet</p>
+            <p class="cat-line" id="product-cats">Accessories, Women</p>
+            <h1 id="product-title">Anchor Bracelet</h1>
+            <p class="price-line" id="product-price">$150.00 - $180.00 <span>+ Free Shipping</span></p>
+            <p class="summary" id="product-summary">
+              Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in
+              elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+
+            <div class="color-row" id="product-colors"></div>
+
+            <div class="cart-row">
+              <input type="number" value="1" min="1" aria-label="Quantity">
+              <button type="button">ADD TO CART</button>
+            </div>
+
+            <p class="meta" id="product-meta">SKU: N/A &nbsp;&nbsp; Categories: Accessories, Women</p>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="desc" type="button">Description</button>
+          <button class="tab-btn" data-tab="add" type="button">Additional information</button>
+          <button class="tab-btn" data-tab="rev" type="button">Reviews (0)</button>
+        </div>
+
+        <div class="tab-panel active" id="tab-desc">
+          <h2>Product description</h2>
+          <p>Since it's creation lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+          <div class="desc-grid">
+            <img src="images/product-about-01.jpg" alt="Style showcase">
+            <div class="desc-copy">
+              <h3>Ut enim ad minim</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <h3>Quis nostrud</h3>
+              <p>Sed do eiusmod tempor incididunt ut labore.</p>
+              <h3>Duis aute irure</h3>
+              <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="desc-copy desc-copy-alt">
+              <h3>More about the product</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+            </div>
+            <img src="images/product-about-04.jpg" alt="Style showcase">
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-add">
+          <h2>Additional information</h2>
+          <p>Weight: 0.5 kg</p>
+          <p>Dimensions: 25 x 15 x 5 cm</p>
+          <p>Material: Premium quality fabric and metal components.</p>
+        </div>
+
+        <div class="tab-panel" id="tab-rev">
+          <h2>Reviews</h2>
+          <p>There are no reviews yet.</p>
+          <p>Be the first to review this product.</p>
+        </div>
+
+        <section class="related">
+          <h2>Related products</h2>
+          <div class="related-grid" id="related-grid"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Her</h4>
+        <ul>
+          <li><a href="Women.html">Women Jeans</a></li>
+          <li><a href="Women.html">Tops and Shirts</a></li>
+          <li><a href="Women.html">Women Jackets</a></li>
+          <li><a href="Women.html">Heels and Flats</a></li>
+          <li><a href="Women.html">Women Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Him</h4>
+        <ul>
+          <li><a href="Man.html">Men Jeans</a></li>
+          <li><a href="Man.html">Men Shirts</a></li>
+          <li><a href="Man.html">Men Shoes</a></li>
+          <li><a href="Man.html">Men Accessories</a></li>
+          <li><a href="Man.html">Men Jackets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Him</h4>
+        <a href="#" class="play-badge" aria-label="Get it on Google Play"><img src="images/playstore-free-img.png" alt="Get it on Google Play"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-wrap">
+        <p>Copyright © 2026 Brandstore</p>
+        <p>Powered by Brandstore</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="customize-float" aria-label="Customize"><i class="bi bi-palette-fill"></i><span>Customize</span></a>
+  <a href="Cart.html" class="floating-cart" aria-label="Open cart"><i class="bi bi-cart3"></i><span class="floating-cart-count">1</span></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="cart.js"></script>
+  <script src="customize.js"></script>
+  <script src="Product.js"></script>
+</body>
+
+</html>

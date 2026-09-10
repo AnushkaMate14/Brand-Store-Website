@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessories Archives- Brandstore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="accessories.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="customize.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html"><img src="images/favicon-free-img-120x120.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Everything.html">EVERYTHING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Women.html">WOMEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Men.html">MEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Accessories.html">ACCESSORIES</a>
+            </li>
+          </ul>
+          <span class="navbar-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cart.html">$0.00</a>
+              </li>
+              <li class="nav-item nav-icon-item">
+                <a class="nav-link nav-icon-link" href="Cart.html" aria-label="Cart">
+                  <i class="bi bi-bag-fill"></i>
+                  <span class="cart-count">0</span>
+                </a>
+              </li>
+              <li class="nav-item nav-icon-item">
+                <a class="nav-link nav-icon-link" href="#" aria-label="Profile">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="store-page">
+      <div class="store-wrap">
+        <aside class="store-sidebar">
+          <form class="search-box" action="#">
+            <input type="text" placeholder="Search products..." aria-label="Search products">
+            <button type="submit" aria-label="Search"><i class="bi bi-chevron-right"></i></button>
+          </form>
+
+          <div class="sidebar-block">
+            <h3>Filter by Price</h3>
+            <div class="fake-range"><span></span></div>
+            <div class="filter-row">
+              <button class="filter-btn" type="button">FILTER</button>
+              <p>Price: <strong>$150 - $180</strong></p>
+            </div>
+          </div>
+
+          <div class="sidebar-block">
+            <h3>Categories</h3>
+            <ul class="cat-list">
+              <li><a href="Accessories.html">Accessories</a><span>(7)</span></li>
+              <li><a href="Men.html">Men</a><span>(14)</span></li>
+              <li><a href="Women.html">Women</a><span>(17)</span></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-block">
+            <h3>Our Best Sellers</h3>
+            <ul class="best-list">
+              <li>
+                <img src="images/product-bag1-300x300.jpg" alt="Light Brown Purse">
+                <div>
+                  <a href="#">Light Brown Purse</a>
+                  <p>$150.00</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/tshirt3-300x300.jpg" alt="Flamingo Tshirt">
+                <div>
+                  <a href="#">Flamingo Tshirt</a>
+                  <p>$25.00 - $28.00</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/product-m-jeans2-300x300.jpg" alt="Dark Blue Denim Jeans">
+                <div>
+                  <a href="#">Dark Blue Denim Jeans</a>
+                  <p>$150.00</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/product-hoodie2-300x300.jpg" alt="Blue Hoodie">
+                <div>
+                  <a href="#">Blue Hoodie</a>
+                  <p>$150.00</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/tshirt7-300x300.jpg" alt="Gray Pattern Tshirt">
+                <div>
+                  <a href="#">Gray Pattern Tshirt</a>
+                  <p>$30.00 - $34.00</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="store-main">
+          <div class="store-meta">
+            <p class="crumb" id="store-crumb">Home / Accessories</p>
+            <h1>Accessories</h1>
+            <p class="store-description" id="store-description">
+              Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in
+              elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit
+              sed ut.
+            </p>
+            <div class="meta-row">
+              <p id="store-results">Showing all 7 results</p>
+              <select aria-label="Sort products">
+                <option>Default sorting</option>
+                <option>Sort by popularity</option>
+                <option>Sort by latest</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="product-grid" id="product-grid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Her</h4>
+        <ul>
+          <li><a href="Women.html">Women Jeans</a></li>
+          <li><a href="Women.html">Tops and Shirts</a></li>
+          <li><a href="Women.html">Women Jackets</a></li>
+          <li><a href="Women.html">Heels and Flats</a></li>
+          <li><a href="Women.html">Women Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Him</h4>
+        <ul>
+          <li><a href="Men.html">Men Jeans</a></li>
+          <li><a href="Men.html">Men Shirts</a></li>
+          <li><a href="Men.html">Men Shoes</a></li>
+          <li><a href="Men.html">Men Accessories</a></li>
+          <li><a href="Men.html">Men Jackets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Him</h4>
+        <a href="#" class="play-badge" aria-label="Get it on Google Play">
+          <img src="images/playstore-free-img.png" alt="Get it on Google Play">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="customize-float" aria-label="Customize"><i class="bi bi-palette-fill"></i><span>Customize</span></a>
+
+  <a href="Cart.html" class="floating-cart" aria-label="Open cart">
+    <i class="bi bi-cart3"></i>
+    <span class="floating-cart-count">0</span>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="cart.js"></script>
+  <script src="customize.js"></script>
+  <script src="accessories.js"></script>
+</body>
+
+</html>

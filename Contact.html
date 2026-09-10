@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Brandstore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="customize.css" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Home.html"
+            ><img src="images/logo1-free-img-140x47.png" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Everything.html">EVERYTHING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Women.html">WOMEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Men.html">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Accessories.html">ACCESSORIES</a>
+              </li>
+            </ul>
+            <span class="navbar-right">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="Contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Cart.html">$0.00</a>
+                </li>
+                <li class="nav-item nav-icon-item">
+                  <a
+                    class="nav-link nav-icon-link"
+                    href="Cart.html"
+                    aria-label="Cart"
+                  >
+                    <i class="bi bi-bag-fill"></i>
+                    <span class="cart-count">0</span>
+                  </a>
+                </li>
+                <li class="nav-item nav-icon-item">
+                  <a
+                    class="nav-link nav-icon-link"
+                    href="#"
+                    aria-label="Profile"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-hero">
+        <div class="container contact-hero-content">
+          <h1>Contact Us</h1>
+        </div>
+      </section>
+
+      <section class="contact-help">
+        <div class="container help-wrap">
+          <div class="help-head">
+            <p>Have any queries?</p>
+            <h2>We're here to help.</h2>
+            <span class="line"></span>
+          </div>
+
+          <div class="help-grid">
+            <article class="help-card">
+              <h3>Sales</h3>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+              <a href="tel:18001234567">1800 123 4567</a>
+            </article>
+            <article class="help-card">
+              <h3>Complaints</h3>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+              <a href="tel:19002238899">1900 223 8899</a>
+            </article>
+            <article class="help-card">
+              <h3>Returns</h3>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+              <a href="mailto:returns@mail.com">returns@mail.com</a>
+            </article>
+            <article class="help-card">
+              <h3>Marketing</h3>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+              <a href="tel:17004445578">1700 444 5578</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <div class="container contact-form-wrap">
+          <div class="contact-copy">
+            <p class="mini">Don't be a stranger!</p>
+            <h2>You tell us. We listen.</h2>
+            <p>
+              Cras elementum finibus lacus nec lacinia. Quisque non convallis
+              nisl, eu condimentum sem. Proin dignissim libero lacus, ut eleifend
+              magna vehicula et. Nam mattis est sed tellus.
+            </p>
+          </div>
+
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contactForm" action="#" method="post">
+              <input type="text" name="name" placeholder="NAME *" required />
+              <input type="text" name="subject" placeholder="SUBJECT *" required />
+              <input type="email" name="email" placeholder="EMAIL *" required />
+              <textarea name="message" rows="5" placeholder="MESSAGE" required></textarea>
+              <button type="submit">SEND MESSAGE</button>
+            </form>
+
+            <article class="form-success-card" id="formSuccessCard" aria-live="polite">
+              <img src="images/GreenTick.svg" alt="Success" />
+              <h3>Thank you</h3>
+              <p>
+                Your form has been submitted successfully. We'll review your details
+                and get back to you soon.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>For Her</h4>
+          <ul>
+            <li><a href="Women.html">Women Jeans</a></li>
+            <li><a href="Women.html">Tops and Shirts</a></li>
+            <li><a href="Women.html">Women Jackets</a></li>
+            <li><a href="Women.html">Heels and Flats</a></li>
+            <li><a href="Women.html">Women Accessories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>For Him</h4>
+          <ul>
+            <li><a href="Man.html">Men Jeans</a></li>
+            <li><a href="Man.html">Men Shirts</a></li>
+            <li><a href="Man.html">Men Shoes</a></li>
+            <li><a href="Man.html">Men Accessories</a></li>
+            <li><a href="Man.html">Men Jackets</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>For Him</h4>
+          <a href="#" class="play-badge" aria-label="Get it on Google Play">
+            <img src="images/playstore-free-img.png" alt="Get it on Google Play" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-wrap">
+          <p>Copyright © 2026 Brandstore</p>
+          <p>Powered by Brandstore</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="customize-float" aria-label="Customize"><i class="bi bi-palette-fill"></i><span>Customize</span></a>
+
+    <a href="Cart.html" class="floating-cart" aria-label="Open cart">
+      <i class="bi bi-cart3"></i>
+      <span class="floating-cart-count">0</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="cart.js"></script>
+    <script src="customize.js"></script>
+    <script>
+      const contactForm = document.getElementById("contactForm");
+      const formSuccessCard = document.getElementById("formSuccessCard");
+
+      if (contactForm && formSuccessCard) {
+        contactForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+          contactForm.classList.add("is-hidden");
+          formSuccessCard.classList.add("is-visible");
+        });
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "anchor-bracelet",
+    "title": "Anchor Bracelet",
+    "category": "Accessories",
+    "image": "images/product-accessory2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "basic-gray-jeans",
+    "title": "Basic Gray Jeans",
+    "category": "Women",
+    "image": "images/product-w-jeans4-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "black-hoodie",
+    "title": "Black Hoodie",
+    "category": "Men",
+    "image": "images/product-hoodie1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "black-over-the-shoulder-handbag",
+    "title": "Black Over-the-shoulder Handbag",
+    "category": "Accessories",
+    "image": "images/product-bag2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "blue-denim-jeans",
+    "title": "Blue Denim Jeans",
+    "category": "Women",
+    "image": "images/product-w-jeans2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "blue-denim-shorts",
+    "title": "Blue Denim Shorts",
+    "category": "Women",
+    "image": "images/product-w-jeans1-300x300.jpg",
+    "price": 130
+  },
+  {
+    "id": "blue-hoodie",
+    "title": "Blue Hoodie",
+    "category": "Men",
+    "image": "images/product-hoodie2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "blue-tshirt",
+    "title": "Blue Tshirt",
+    "category": "Men",
+    "image": "images/tshirt2-300x300.jpg",
+    "price": 40
+  },
+  {
+    "id": "boho-bangle-bracelet",
+    "title": "Boho Bangle Bracelet",
+    "category": "Accessories",
+    "image": "images/product-accessory1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "bright-gold-purse-with-chain",
+    "title": "Bright Gold Purse With Chain",
+    "category": "Accessories",
+    "image": "images/product-bag2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "bright-red-bag",
+    "title": "Bright Red Bag",
+    "category": "Accessories",
+    "image": "images/product-bag3-300x300.jpg",
+    "price": 100
+  },
+  {
+    "id": "buddha-bracelet",
+    "title": "Buddha Bracelet",
+    "category": "Accessories",
+    "image": "images/product-accessory3-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "dark-blue-denim-jeans",
+    "title": "Dark Blue Denim Jeans",
+    "category": "Men",
+    "image": "images/product-m-jeans2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "dark-brown-jeans",
+    "title": "Dark Brown Jeans",
+    "category": "Men",
+    "image": "images/product-m-jeans1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "dark-gray-jeans",
+    "title": "Dark Gray Jeans",
+    "category": "Men",
+    "image": "images/product-m-jeans4-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "dnk-black-shoes",
+    "title": "DNK Black Shoes",
+    "category": "Women",
+    "image": "images/sports-shoe1-300x300.jpg",
+    "price": 175
+  },
+  {
+    "id": "dnk-blue-shoes",
+    "title": "DNK Blue Shoes",
+    "category": "Men",
+    "image": "images/sports-shoe1-300x300.jpg",
+    "price": 200
+  },
+  {
+    "id": "dnk-green-shoes",
+    "title": "DNK Green Shoes",
+    "category": "Men",
+    "image": "images/sports-shoe3-300x300.jpg",
+    "price": 250
+  },
+  {
+    "id": "dnk-green-tshirt",
+    "title": "DNK Green Tshirt",
+    "category": "Men",
+    "image": "images/tshirt2-300x300.jpg",
+    "price": 42
+  },
+  {
+    "id": "dnk-red-shoes",
+    "title": "DNK Red Shoes",
+    "category": "Men",
+    "image": "images/sports-shoe1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "dnk-yellow-shoes",
+    "title": "DNK Yellow Shoes",
+    "category": "Men",
+    "image": "images/sports-shoe3-300x300.jpg",
+    "price": 120
+  },
+  {
+    "id": "faint-washed-denim-blue-jeans",
+    "title": "Faint Washed Denim Blue Jeans",
+    "category": "Men",
+    "image": "images/product-m-jeans2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "flamingo-tshirt",
+    "title": "Flamingo Tshirt",
+    "category": "Women",
+    "image": "images/tshirt3-300x300.jpg",
+    "price": 25
+  },
+  {
+    "id": "gray-pattern-tshirt",
+    "title": "Gray Pattern Tshirt",
+    "category": "Women",
+    "image": "images/tshirt7-300x300.jpg",
+    "price": 30
+  },
+  {
+    "id": "green-hoodie",
+    "title": "Green Hoodie",
+    "category": "Men",
+    "image": "images/product-hoodie2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "lemons-tshirt",
+    "title": "Lemons Tshirt",
+    "category": "Women",
+    "image": "images/tshirt2-300x300.jpg",
+    "price": 25
+  },
+  {
+    "id": "light-brown-purse",
+    "title": "Light Brown Purse",
+    "category": "Accessories",
+    "image": "images/product-bag1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "purple-tshirt",
+    "title": "Purple Tshirt",
+    "category": "Women",
+    "image": "images/tshirt2-300x300.jpg",
+    "price": 25
+  },
+  {
+    "id": "red-hoodie",
+    "title": "Red Hoodie",
+    "category": "Men",
+    "image": "images/product-hoodie1-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "slim-fit-blue-jeans",
+    "title": "Slim Fit Blue Jeans",
+    "category": "Women",
+    "image": "images/product-m-jeans2-300x300.jpg",
+    "price": 150
+  },
+  {
+    "id": "white-underground-tshirt",
+    "title": "White Underground Tshirt",
+    "category": "Women",
+    "image": "images/tshirt2-300x300.jpg",
+    "price": 150
+  }
+]
